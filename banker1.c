@@ -44,7 +44,7 @@ void main()
     printf("\n For Process[%d] \n", i);
     for(j=0; j<resource; j++)
     {
-      printf(" Resource[%d] : ", i);
+      printf(" Resource[%d] : ", j);
       scanf("%d", &instance);
       allocated[i][j] = instance;
       need[i][j] = max[i][j] - allocated[i][j];// need matrix
